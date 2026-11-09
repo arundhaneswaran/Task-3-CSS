@@ -1,0 +1,63 @@
+* {
+    background-color: orange;
+}
+
+.main-heading {
+    color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+#bglime {
+    background-color: lime;
+    span{
+        background-color: lime;
+        color: red;
+    }
+    
+}
+#pElmtSel p{
+    color: green;
+}
+#pElmtSel >p{
+    color: white;
+    span{
+        color: black;
+        font-size: larger;
+    }
+}
+
+#noATag {
+    color: white;
+        .my-button {
+        background-color: yellow;
+        color: green;
+        text-decoration: underline;
+        padding: 2px 4px;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+        }
+
+        .my-button1 {
+        background-color: rgb(182, 150, 211);
+        color: blue;
+        text-decoration: underline;
+        padding: 2px 4px;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+        }
+}
+
+
+#NoIdClass p{
+    color:black
+}
+
+.liRed {
+        color: red;
+    }   
+.liBlue {
+        color: blue;
+    }
+
