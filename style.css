@@ -1,10 +1,21 @@
-* {
+body {
     background-color: orange;
 }
 
-.main-heading {
+.head {
     color: darkblue;
-    font-family: Arial, sans-serif;
+}
+
+p {
+    color: white;
+}
+
+#para{
+    color: green;
+    span{
+        color: black;
+        font-size: 40px;
+    }
 }
 
 #bglime {
@@ -15,7 +26,7 @@
     }
     
 }
-#pElmtSel p{
+/* #pElmtSel p{
     color: green;
 }
 #pElmtSel >p{
@@ -24,9 +35,10 @@
         color: black;
         font-size: larger;
     }
-}
+} */
 
-#noATag {
+/* #noATag { */
+ul {
     color: white;
         .my-button {
         background-color: yellow;
@@ -49,15 +61,17 @@
         }
 }
 
-
-#NoIdClass p{
-    color:black
+ol {
+    
+li:nth-child(2){
+    color: blue;
 }
 
-.liRed {
-        color: red;
-    }   
-.liBlue {
-        color: blue;
-    }
+li:nth-child(3){
+    color: red;
+}
+
+} 
+
+
 
